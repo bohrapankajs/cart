@@ -26,7 +26,7 @@
                         sh "echo Installing Jslint"
                         sh "npm i jslint"
                         sh "node_modules/jslint/bin/jslint.js server.js || true"
-                        sh "Lint Check completed Cart"
+                        sh "echo Lint Check completed Cart"
                     }
                 } 
             }  
