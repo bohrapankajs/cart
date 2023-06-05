@@ -1,6 +1,6 @@
-// @Library('roboshop-shared-library@main') _
-// env.COMPONENT="cart"
-// nodejs()
+@Library('roboshop-shared-library@main') _
+env.COMPONENT="cart"
+nodejs()
 // def lintchecks() {
 //     sh "Installing Jslint"
 //     sh "npm i jslint"
